@@ -1,0 +1,35 @@
+.sobre-mi {
+    margin-top: 23rem;
+  }
+
+  #cursiva {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+  }
+  .clh5 {
+    font-family: 'Courier New', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+  }
+  .clh1 {
+    font-family: 'Courier New', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+
+  }
+  .clh4 {
+    font-family: 'Courier New', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+  }
+  .clh3 {
+    font-family: 'Courier New', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+
+  }
+
+  /*para el tipo de letra del sobre mi*/
+.clh4 {
+  font-family: 'Courier New', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+
+}

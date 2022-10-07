@@ -1,0 +1,22 @@
+i.fa-brands.fa-facebook.fa-2xl:hover {
+    color: blue;
+  }
+  
+  i.fa-brands.fa-linkedin.fa-2xl:hover {
+    color: cornflowerblue;
+  }
+  
+  i.fa-brands.fa-instagram.fa-2xl:hover {
+    color: crimson;
+  }
+  i.fa-brands.fa-facebook.fa-2xl {
+    color: rgba(0, 0, 0, 0.876);
+  }
+  
+  i.fa-brands.fa-linkedin.fa-2xl {
+    color: rgba(0, 0, 0, 0.876);
+  }
+  
+  i.fa-brands.fa-instagram.fa-2xl {
+    color: rgba(0, 0, 0, 0.876);
+  }

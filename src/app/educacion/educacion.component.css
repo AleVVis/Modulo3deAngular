@@ -1,0 +1,45 @@
+.clh5 {
+    font-family: 'Courier New', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+  }
+  .clh1 {
+    font-family: 'Courier New', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+
+  }
+  .clh4 {
+    font-family: 'Courier New', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+  }
+  .clh3 {
+    font-family: 'Courier New', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+
+  }
+  .clparrafo {
+    font-family: 'Courier New', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+  }
+
+  .row {
+    margin: 20px -16px;
+    background-color: lightblue;
+  }
+  /*para centrar las columnas*/
+.col-2 {
+  display: grid;
+  place-items: center;
+}
+
+.col-1 {
+  display: grid;
+  place-items:center;
+}
+
+.col-9 {
+  display: grid;
+  place-items: center;
+}
