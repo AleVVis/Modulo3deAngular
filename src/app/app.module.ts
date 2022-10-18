@@ -18,6 +18,7 @@ import { IntroComponent } from './intro/intro.component';
 import { NavbarDashboardComponent } from './navbar-dashboard/navbar-dashboard.component';
 import { ButtonLoginComponent } from './button-login/button-login.component';
 import { ButtonLogoutComponent } from './button-logout/button-logout.component';
+import { SidebarDashboardComponent } from './sidebar-dashboard/sidebar-dashboard.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ButtonLogoutComponent } from './button-logout/button-logout.component';
     IntroComponent,
     NavbarDashboardComponent,
     ButtonLoginComponent,
-    ButtonLogoutComponent
+    ButtonLogoutComponent,
+    SidebarDashboardComponent
   ],
   imports: [
     BrowserModule,
