@@ -1,29 +1,28 @@
       <!--Educación-->
       <section id="educación" class="educación">
+        
         <h1 class="clh1">Educación</h1>
-        <div class="container">
+        <div class="container"
+        *ngFor="let educacion of educaciones">
           <div class="row">
             <div class="col-2">
               <img
                 id="imagen"
-                src="assets/UBA Veterinaria.png"
+                [src]="educacion.logoEducacion"
                 class="img-fluid"
                 alt="..."
               />
             </div>
             <div class="col-1">
-              <h3 class="clh3">Lorem ipsum.</h3>
+              <h3 class="clh3">{{educacion.fechaEducacion}}</h3>
             </div>
             <div class="col-9">
               <p class="clparrafo">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-                deleniti reprehenderit magnam nisi accusantium atque commodi
-                quibusdam libero, tenetur doloribus natus iure iste quasi
-                quaerat quod error ipsa ex. Maxime.
+                {{educacion.descEducacion}}
               </p>
             </div>
           </div>
-          <div class="row">
+  <!--        <div class="row">
             <div class="col-2">
               <img
                 id="imagen"
@@ -64,6 +63,6 @@
                 quaerat quod error ipsa ex. Maxime.
               </p>
             </div>
-          </div>
+          </div>-->
         </div>
       </section>

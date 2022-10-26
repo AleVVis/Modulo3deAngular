@@ -1,25 +1,23 @@
       <!--Proyectos-->
       <section id="proyectos" class="proyectos">
         <h1 class="clh1">Proyectos</h1>
-        <div class="container">
+        <div class="container"
+        *ngFor="let proyecto of proyectos">
           <div class="row">
             <div class="col-2">
               <img
                 id="imagen"
-                src="assets/Mi Portfolio.png"
+                [src]="proyecto.logoProyecto"
                 class="img-fluid"
                 alt="..."
               />
             </div>
             <div class="col-1">
-              <h3 class="clh3">Lorem ipsum.</h3>
+              <h3 class="clh3">{{proyecto.fechaProyecto}}</h3>
             </div>
             <div class="col-9">
               <p class="clparrafo">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-                deleniti reprehenderit magnam nisi accusantium atque commodi
-                quibusdam libero, tenetur doloribus natus iure iste quasi
-                quaerat quod error ipsa ex. Maxime.
+                {{proyecto.descProyecto}}
               </p>
             </div>
           </div>

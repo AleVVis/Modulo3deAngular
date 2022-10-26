@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+//importar el Router para permitir la navegación a la pag principal
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-intro',
@@ -7,7 +9,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IntroComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+  ) { }
 
   ngOnInit(): void {
   }

@@ -1,0 +1,101 @@
+{
+    "bannerImagen": "assets/imagen computacion para banner5.jpg",
+    "miFoto": "assets/Foto Ale.jpg",
+    "miNombre": "Alejandra Visconti",
+    "miTitulo": "Programador Full Stack Jr",
+    "acercademi": "Hola! Soy Alejandra Visconti, trabajé durante toda mi vida en el área de IT, como administrativa. Como siempre me gustó la tecnología, decidí estudiar el desarrollo web para incorporarlo a mi vida profesional",
+
+    "experiencias":[ 
+      {
+        "id": 0,
+        "logoEmpresa":"assets/Logo Alcatel.jpg",
+        "fechaEmpresa": "1234 a 1234",
+        "descEmpresa": "Trabajé como asistente en Alcatel Techint durante 10 años, pude ver el comienzo de la tecnología en el área de las comunicaciones con la primera central telefónica inteligente."
+       },
+       {
+        "id": 1,
+        "logoEmpresa":"assets/Logo Sofrecom.jpg",
+        "fechaEmpresa": "1234 a 1234",
+        "descEmpresa": "Trabajé como asistente de direcciónen Sofrecom durante 5 años, además de continuar en el área de tecnología, utilicé mucho el idioma Francés que domino con fluidez, incluso traduciendo vocabulario técnico."
+       },
+       {
+        "id": 2,
+        "logoEmpresa":"assets/Logo Telecom.jpg",
+        "fechaEmpresa": "1234 a 1234",
+        "descEmpresa": "Trabajo como asistente en Telecom desde hace 15 años, desde este lugar puedo ver a diario la evolución del fascinante mundo de la tecnología, y cómo, a traves de ella, mejoramos nuestra calidad de vida."
+       }
+      ],
+
+    
+      "educaciones":[
+        {
+        "id": 0,
+        "logoEducacion":"assets/EscudoLenguasVivas.png",
+        "fechaEducacion": "1234 a 1234",
+        "descEducacion":"Tratuctora Literaria Técnica y Científica de Francés"
+      },
+      {
+        "id": 1,
+        "logoEducacion":"assets/UBA Veterinaria.png",
+        "fechaEducacion": "1234 a 1234",
+        "descEducacion":"Médica Veterinaria"
+        },
+        {
+        "id": 2,
+        "logoEducacion":"assets/APLogo-20-20.png",
+        "fechaEducacion": "1234 a 1234",
+        "descEducacion":"Desarrolladora WEB Full Stack"
+        }
+      ],
+    
+      "skills":[
+        {
+        "id": 0,
+        "habilidad":"Comunicación",
+        "porcentaje": "90",
+        "color":""
+      },
+      {
+        "id": 1,
+        "habilidad":"Liderazgo",
+        "porcentaje": "80",
+        "color":""
+        },
+        {
+          "id": 2,
+          "habilidad":"Adaptabilidad a los Cambios",
+          "porcentaje": "90",
+          "color":""
+        },
+        {
+          "id": 3,
+          "habilidad":"Completar",
+          "porcentaje": "80",
+          "color":""
+        }
+      ],  
+
+      "idiomas":[
+        {
+        "id": 0,
+        "habilidad":"Inglés",
+        "porcentaje": "50",
+        "color":""
+      },
+      {
+        "id": 1,
+        "habilidad":"Francés Bilingüe",
+        "porcentaje": "100",
+        "color":""
+        }
+      ],
+
+      "proyectos":[ 
+      {
+         "id": 0,
+         "logoProyecto":"assets/APLogo-20-20.png",
+         "fechaProyecto": "1234 a 1234",
+         "descProyecto": "Mi portfolio es mi primer proyecto!!"
+       }
+      ]  
+}

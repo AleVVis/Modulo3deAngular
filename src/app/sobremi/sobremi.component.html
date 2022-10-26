@@ -5,21 +5,18 @@
         <!--Foto mía-->
         <div class="col-3">
           <img
-            src="assets/Foto Ale.jpg"
+            [src]="miFoto"
             alt="..."
             width="100%"
             title="Foto Alejandra"/>
-          <h3 id="cursiva">Alejandra Visconti</h3>
+          <h3 id="cursiva">{{miNombre}}</h3>
           <a target="_blank" href="assets/CV de Ale.docx"><button type="button" class="btn btn-primary">CV Alejandra</button></a>
         </div>
         <div class="col-9">
           <h1 class="clh1">Sobre mí</h1>
-          <h5 class="clh5">Programadora Full Stack Jr.</h5>
+          <h5 class="clh5">{{miTitulo}}</h5>
           <h4 class="clh4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            velit fuga doloribus assumenda numquam ipsum iure qui voluptas
-            cum. Blanditiis cupiditate laboriosam veritatis commodi
-            recusandae, fuga dignissimos asperiores vel aliquam.
+            {{acercademi}}
           </h4>
         </div>
       </div>
